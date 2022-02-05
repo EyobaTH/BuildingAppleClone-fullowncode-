@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1d1d1f;
+}
+
+/* .favSvg {
+    width: 2px; height: 2px;
+} */
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #06c;
+    /* outline: 1px solid #ff62ab!important; */
+}
+
+p {
+    color: #bf4800;
+    font-weight: 500;
+}
+
+h4 {
+  font-size: 24px;  
+  font-weight: 400;
+}
+
+/* ****** CONTAINER ******* */
+
+.container {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+
+/* ***** HEADER ********* */
+/* *** NAVIGATION ****** */
+.nav-bar {
+    background-color: #333333;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px 0;
+    font-size: 12px;
+}
+
+.nav-ul img {
+    width: 12px;
+}
+
+.nav-ul li {
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+.nav-ul li a {
+    text-decoration: none;
+    color: #D6D6D6;
+}
+
+/* ****************** */
+/* *** Near Nav **** */
+/* **************** */
+
+.near-nav {
+    background-color: #F5F5F7;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.near-nav p{
+    /* width: 500px; */
+    /* max-width: 70%; */
+    font-size: 14px;
+    color: #707070;
+}
+
+/* ******************************** */
+/* ***** PIC ONE|TWO|THREE ******* */
+/* ****************************** */
+
+.picOne, .picTwo, .picThree {
+    text-align: center;
+    background-image: url(../images/home/iphone13-bg.jpg);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.picOneText, .picTwoText, .picThreeText {
+    padding-top: 70px;
+    /* background-color: rgb(41, 97, 134); */
+}
+
+.picOneText h2, .picTwoText h2, .picThreeText h2 {
+    /* font-size: 48px; */
+    /* font-weight: 600; */
+    margin: 10px;
+}
+
+.picOneLink, .picTwoLink, .picThreeLink {
+    letter-spacing: inherit;
+    font-size: large;
+    margin-top: 15px;
+}
+
+.picOneLink a, .picTwoLink a {
+    margin-left: 10px;
+}
+
+/* ********************** */
+/* ***** PIC TWO ******* */
+/* ********************** */
+
+.picTwo {
+    margin-top: 10px;
+    background-image: url(../images/home/iphone13-pro-bg.jpg);
+}
+
+.picTwoText h2 {
+    color: #fff;
+}
+
+.picTwoText h3 {
+    color: #fec2eb;
+}
+
+/* ********************** */
+/* ***** PIC THREE ******* */
+/* ******************** */
+
+.picThree {
+    margin-top: 10px;
+    background-image: url(../images/home/apple-watch-bg.jpg);
+}
+
+.picThreeText h2 {
+    color: #fff;
+}
+
+.picThreeText h3 {
+    color: #fec2eb;
+}
+
+.picThreeText h4 {
+    margin-top: 10px;
+}
+
+/* *************************************** */
+/* ********** WATCH AND SHOT ************ */
+.watchShot {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.watchOne, .shotOne {
+    background-image: url(../images/home/watch-series-7.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 616px;
+    height: 490px;
+    padding-top: 20px;
+}
+
+.watchOne h2, .shotOne h2 {
+    font-size: 38px;
+    /* word-spacing: 5px; */
+    font-weight: 550;
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.watchOne h3, .shotOne h3 {
+    color: #fec2eb;
+}
+
+.watchOne h4, .shotOne h4 {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 19px;
+    font-weight: 200;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.watchOne, .shotOne a {
+    /* margin-top: 5px; */
+}
+
+/* ***** SHOT ONE ******* */
+.shotOne {
+    background-image: url(../images/home/shotOneImg.jpg);
+}
+
+.shotOne h2 {
+    margin-top: 15px;
+}
